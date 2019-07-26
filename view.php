@@ -16,7 +16,7 @@
 <body>
 <!-- //画面に表示する -->
     <?php foreach ($results as $result): ?>
-        <p><?php echo 'ニックネーム:' . h($result['nickname']); ?></p>
+        <p><?php echo 'ニックネーム: ' . h($result['nickname']); ?></p>
         <p><?php echo 'E-mail: ' . h($result['email']); ?></p>
         <p><?php echo '内容: ' . h($result['content']); ?></p>
         <hr>
